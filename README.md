@@ -43,7 +43,7 @@ Antes de começar, certifique-se de ter o Python instalado em sua máquina. Voc�
 
 5. Adicione sua chave de API da NASA em `.env`:
    ```python
-   API_KEY = "SUA_API_KEY"  # Substitua pela sua chave
+   NASA_API_KEY = SUA_API_KEY  # Substitua pela sua chave
    ```
 
 ## Uso
@@ -55,4 +55,4 @@ python app.py
 Depois, abra o navegador e acesse http://127.0.0.1:8050/.
 1. Escolha um rover no dropdown.
 2. Insira um número de "sol" (por exemplo, 1000).
-3. Clique em Submit para ver as imagens.
+3. Clique em Enviar para ver as imagens.
